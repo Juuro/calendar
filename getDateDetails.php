@@ -1,4 +1,5 @@
 <?php
+
 include "admin/auth.php";
 include "functions.php";	
 include "inc/db.php";

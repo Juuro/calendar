@@ -1,4 +1,7 @@
 <?php
+
+date_default_timezone_set('Europe/Berlin');
+
 function getDateCompleteMonth($i, $numberofdays, $belegtetage){
     $sql = "SELECT
         *   
