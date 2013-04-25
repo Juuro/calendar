@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/Berlin');
+
 include "auth.php";
 include "../inc/db.php";
 
