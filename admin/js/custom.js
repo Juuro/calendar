@@ -1,3 +1,5 @@
-$(document).ready(function() { 
-	SortTable.init();
-});
+$(document).ready(function() 
+	{ 
+		$("#admin-datelist").tablesorter(); 
+	} 
+);

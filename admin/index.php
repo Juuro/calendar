@@ -14,17 +14,8 @@ include "../inc/db.php";
 	
 	
 	<script type="text/javascript" src="js/ltrim.js"></script>
-	<script type="text/javascript" src="js/sort_table.js"></script>
-	
-	
-	
-<script type="text/javascript" >
-window.onload = function() {
-	SortTable.init();
-}
-</script>
-	
-	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script> 	
 	<script type="text/javascript" src="js/custom.js"></script>	
 	
 	
@@ -82,7 +73,7 @@ window.onload = function() {
 	}
 	
 	echo "<p class='newbooking'><a href='neu.php'><img src='../img/add_16.png' alt='add_16' width='16' height='16'/> Neue Belegung</a></p>";
-	echo "<table id='admin-datelist' class='sortable'>";
+	echo "<table id='admin-datelist' class='sortable tablesorter'>";
 	echo	"<thead>";
 	echo 	"<tr>";
 	echo		"<th>#</th>";

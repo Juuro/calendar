@@ -121,3 +121,28 @@ background-color:#cccccc;
 tr {
 vertical-align:middle;
 }
+
+th.header { 
+    background-image: url(../img/bg.gif);     
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px;
+}
+
+th.headerSortUp { 
+    background-image: url(../img/asc.gif);    
+    background-color: hsla(0, 0%, 64%, 1);
+} 
+
+th.headerSortDown { 
+    background-image: url(../img/desc.gif); 
+    background-color: hsla(0, 0%, 64%, 1); 
+} 
+
+th.no_sort {
+    background-image: none;
+    padding-left: 0;
+    background-color:#cccccc;
+}
