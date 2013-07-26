@@ -38,13 +38,14 @@
 	</p>
 	<p id="adress">
 	    H&uuml;ttenwart und Belegung<br />
-	    <b>Michael Stau&szlig;</b><br />
-	    Ostheimstra&szlig;e 11<br />
+	    <br />
+	    <b>Ellen Hirt</b><br />
+	    Spitalstraße 11<br />
 	    72458 Albstadt<br />
-	    Tel.: 0 74 31 / 58 3 99 (bis 20.00 Uhr)<br />
-	    Handy: 01 75 / 15 95 699<br />
-	    Fax: 07431/ 93 48 77<br />
-	    e-mail: <a href="mailto:michael@michaelstauss.de">michael@michaelstauss.de</a>
+	    <br />
+	    Tel.: 0 7431 763868 (bis 20.00 Uhr)<br />
+	    Handy: 0 172 6382928<br />
+	    e-mail: <a href="mailto:ellen.hirt@gmx.net">ellen.hirt@gmx.net</a>
 	</p>
 
 <?php	

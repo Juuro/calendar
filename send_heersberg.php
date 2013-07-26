@@ -55,7 +55,7 @@ $handy = $_GET['handy'];
 $email = $_GET['email'];
 $comment = $_GET['comment'];
 
-$an = "michael@michaelstauss.de";
+$an = "ellen.hirt@gmx.net";
 //$an = "mail@sebastian-engel.de";
 $betreff = "Belegungsanfrage Heersberg ".$gruppe;
 
