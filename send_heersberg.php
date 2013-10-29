@@ -56,7 +56,7 @@ $email = $_GET['email'];
 $comment = $_GET['comment'];
 
 $an = "ellen.hirt@gmx.net";
-//$an = "mail@sebastian-engel.de";
+// $an = "mail@sebastian-engel.de";
 $betreff = "Belegungsanfrage Heersberg ".$gruppe;
 
 $mailtext01 = "Belegungsanfrage von: ".$belegung_von.$von_jahr.", ".$von_uhr." Uhr \n bis: ".$belegung_bis.$bis_jahr.", ".$bis_uhr." Uhr \n \n";
@@ -73,7 +73,7 @@ $mailtext11 = "sontiges : ".$comment." \n ";
 
 $mailtext = $mailtext01.$mailtext02.$mailtext03.$mailtext04.$mailtext05.$mailtext06.$mailtext07.$mailtext08.$mailtext09.$mailtext10.$mailtext11;
 
-mail($an,utf8_decode($betreff),utf8_decode($mailtext),"From: belegung_heersberg@cvjm-ebingen.de");
+mail($an,utf8_decode($betreff),utf8_decode($mailtext),"From: ".$email);
 ?>
 <div id="wrap">
 	<p class="cvjm-logo"><img src="img/cvjm-logo.png" width="130" height="110" /></p>
